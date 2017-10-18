@@ -3,6 +3,11 @@
   position: relative;
   top: 50%;
   transform: translate(0, -50%); }
+.advanced-pie-legend .item-value-container {
+  display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
   .advanced-pie-legend .total-value {
     font-size: 36px; }
   .advanced-pie-legend .total-label {
